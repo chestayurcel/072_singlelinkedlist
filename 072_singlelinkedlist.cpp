@@ -184,9 +184,9 @@ int main() {
                 break;
             }
         }
-        catch(const std::exception& e)
+        catch (exception e)
         {
-            std::cerr << e.what() << '\n';
+            cout << "Terjadi kesalahan" << endl;
         }
         
     } while ({});
