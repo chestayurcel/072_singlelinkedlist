@@ -189,6 +189,5 @@ int main() {
             cout << "Terjadi kesalahan" << endl;
         }
         
-    } while ({});
-    
+    } while (pilihan != 5);
 }
